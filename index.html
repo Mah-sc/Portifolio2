@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio Manuella</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="Img/Logo.png" type="image/x-icon">
+</head>
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <img src="Img/Logo.png" alt="Logo">
+      <h1>Meu Portfólio</h1>
+    </div>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Nome e imagem -->
+  <main>
+    <div class="titulo">
+      <span class="ano1">2026</span>
+      <h2>Portifólio Manuella</h2>
+    </div>
+    
+    <div class="foto-container">
+      <img src="Img/Eu.jpeg" alt="Foto Manuella" class="foto-perfil">
+      
+      <!-- Direita -->
+      <span class="bolinha r1"></span>
+      <span class="bolinha r2"></span>
+      <span class="bolinha r3"></span>
+
+      <!-- Esquerda -->
+      <span class="bolinha l1"></span>
+      <span class="bolinha l2"></span>
+      <span class="bolinha l3"></span>
+    </div>
+
+
+    <p class="bemvindo">Bem Vindo!</p>
+  </main>
+
+  <section id="sobre" class="sobre">
+  <div class="sobre-box">
+    <div class="sobre-texto">
+      <h3>Bem Vindo!</h3>
+      <p>
+        Oii, eu sou a Manuella! <br>
+        Neste portfólio você encontrará alguns dos meus projetos, incluindo trabalhos desenvolvidos durante o curso e projetos pessoais.
+      </p>
+      <p>
+        Sou estudante da Etec ABH, onde curso Informática para Internet e estou no meu último ano. Ao longo da formação, adquiri conhecimentos em diferentes áreas, como banco de dados, criação de protótipos de sites, design, desenvolvimento de histórias para jogos, além de HTML, CSS e JavaScript, entre outras coisas.
+      </p>
+      <p>
+        Além da programação, também gosto muito de desenhar. Desde pequena sempre gostei de colocar minhas ideias no papel, mas comecei a me dedicar de verdade em 2020, copiando desenhos que eu via. O mais difícil para mim foi encontrar meu próprio traço, algo que consegui definir apenas em 2024, após muitas tentativas e inspirações. É uma atividade que gosto muito de fazer.
+      </p>
+      <p>
+       Aqui estão algumas das principais coisas que gostaria de compartilhar. Espero que goste do meu portfólio.
+      </p>
+    </div>
+    <div class="sobre-img">
+      <img src="Img/Chibi 2002.png" alt="Personagem Manuella">
+    </div>
+  </div>
+</section>
+
+<section id="projetos" class="projetos">
+  <h2>Meus Projetos</h2>
+  <div class="projetos-container">
+    <div class="galeria">
+      <!--  abrirMenu() por abrirDescricao() com número -->
+      <div class="card" onclick="abrirDescricao(2)">
+        <img src="Img/SoundPulse.png" alt="Projeto 2">
+        <h2>SoundPulse</h2>
+      </div>
+      <div class="card" onclick="abrirDescricao(4)">
+        <img src="Img/Sweet Pudding logo.png" alt="Projeto 4">
+        <h2>Sweet Pudding</h2>
+      </div>
+      <div class="card" onclick="abrirDescricao(5)">
+        <img src="Img/Hotel.png" alt="Projeto 5">
+        <h2>Celeste Hotel</h2>
+      </div>
+      <div class="card" onclick="abrirDescricao(7)">
+        <img src="Img/Castelena.png" alt="Projeto 7">
+        <h2>Castelena</h2>
+      </div>
+      <div class="card" onclick="abrirDescricao(8)">
+        <img src="Img/Imaginação Criativa.png" alt="Projeto 8">
+        <h2>Imaginação Criativa</h2>
+      </div>
+      <div class="card" onclick="abrirDescricao(9)">
+        <img src="Img/Amor Açucarado.png" alt="Projeto 9">
+        <h2>Amor Açucarado</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Menu lateral adicionado -->
+<div id="descricao" class="menu">
+  <button class="fechar" onclick="fecharDescricao()">×</button>
+  <h2 id="titulo-projeto">Título</h2>
+  <p id="texto-projeto">Descrição do projeto...</p>
+  <a id="link-projeto" href="#" target="_blank">
+    <button>Ver Projeto</button>
+  </a>
+</div>
+
+<section class="desenhos">
+  <h2>Meus Desenhos</h2>
+  <div class="desenhos-container">
+    <a href="desenho Manual.html">
+      <img src="Img/Manual.png" alt="Desenhos Físicos" class="quadro">
+    </a>
+
+    <img src="Img/Chibi 1900.png" alt="Bonequinha" class="bonequinha">
+
+    <a href="desenho digital.html">
+      <img src="Img/Desenhos Digitais.png" alt="Desenhos Digitais" class="quadro">
+    </a>
+  </div>
+
+</section>
+
+  <!-- Rodapé -->
+  <footer id="contato">
+    <div class="footer-top">
+      <h3>Contato</h3>
+      <p>
+        <a href="https://instagram.com/m4h_sc" target="_blank">
+        Instagram
+        </a>
+      </p>
+      <p>
+        <a href="mailto:manusilveiradecarvalho@gmail.com">
+        Email
+        </a>
+      </p>
+      <p>
+        <a href="https://wa.me/11975281428" target="_blank">
+        WhatsApp
+        </a>
+      </p>
+    </div>
+    <div class="footer-bottom">
+      <p>Feito por Manuella</p>
+    </div>
+  </footer>
+
+   <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio Manuella</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <img src="Img/Logo.png" alt="Logo">
+      <h1>Meu Portfólio</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- Título da página -->
+  <header>
+    <h1>Desenhos Digitais</h1>
+  </header>
+
+  <!-- Galeria -->
+  <main class="galeria">
+
+    <div class="item">
+      <img src="Img/DF/gojo.jpg" alt="Desenho 1" onclick="abrirModal(this)">
+      <p>2021</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/a.jpg" alt="Desenho 2" onclick="abrirModal(this)">
+      <p>2022</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/Flor.jpg" alt="Desenho 3" onclick="abrirModal(this)">
+      <p>2022</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/bjhmk.jpg" alt="Desenho 4" onclick="abrirModal(this)">
+      <p>2022</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/infp.jpg" alt="Desenho 5" onclick="abrirModal(this)">
+      <p>2022</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/lilith.jpg" alt="Desenho 6" onclick="abrirModal(this)">
+      <p>2022</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/miwa.jpg" alt="Desenho 7" onclick="abrirModal(this)">
+      <p>2022</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/kageyama.jpg" alt="Desenho 8" onclick="abrirModal(this)">
+      <p>2022</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/Raven and Yuri.jpg" alt="Desenho 9" onclick="abrirModal(this)">
+      <p>2023</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/Carinha.png" alt="Desenho 10" onclick="abrirModal(this)">
+      <p>2023</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/Carta.jpeg" alt="Desenho 11" onclick="abrirModal(this)">
+      <p>2025</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/Muniky.jpeg" alt="Desenho 12" onclick="abrirModal(this)">
+      <p>2025</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/Lysandre.jpg" alt="Desenho 13" onclick="abrirModal(this)">
+      <p>2025</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/Castiel.jpg" alt="Desenho 14" onclick="abrirModal(this)">
+      <p>2025</p>
+    </div>
+
+    <div class="item">
+      <img src="Img/DF/Keloy.jpeg" alt="Desenho 15" onclick="abrirModal(this)">
+      <p>2026</p>
+    </div>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer id="contato">
+    <div class="footer-top">
+      <h3>Contato</h3>
+
+      <p>
+        <a href="https://instagram.com/m4h_sc" target="_blank">Instagram</a>
+      </p>
+
+      <p>
+        <a href="mailto:manusilveiradecarvalho@gmail.com">Email</a>
+      </p>
+
+      <p>
+        <a href="https://wa.me/5511975281428" target="_blank">WhatsApp</a>
+      </p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Feito por Manuella</p>
+    </div>
+  </footer>
+
+  
+  <div id="modal" class="modal">
+    <span class="fechar-modal" onclick="fecharModal()">×</span>
+    <img class="modal-img" id="imgModal">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
